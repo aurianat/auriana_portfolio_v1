@@ -87,6 +87,182 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* ==========================================================================
+  Home Page
+      ========================================================================== */
+
+/***** GENERAL STYLES *****/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: ;
+  color: ;
+  text-align: left;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: ;
+  font-weight: ;
+  font-size: ;
+  margin: 0;
+}
+
+h3, h4 {
+  font-family: ;
+  font-weight: ;
+  font-size: ;
+  margin: ;
+}
+
+p {
+  font-size: ;
+  line-height: ;
+}
+
+img {
+  width: 100%;
+}
+
+  .content-wrapper{
+    width: 90%;
+    margin: 50px 0;
+  }
+/* --------------------- Base Header - Footer styles --------------------- */
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+}
+
+header {
+  padding: ;
+}
+
+header .content-wrapper {
+  margin: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row-wrap;
+}
+
+/*header .divider{
+background: #a3a3a3;
+height: 1px;
+width: 100%;
+margin: ;
+} */
+
+header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 500;
+/*  text-transform: uppercase; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row-wrap;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul {
+  list-style-type: none;
+  margin: ;
+  padding: ;
+}
+
+header li {
+  font-size: ;
+}
+
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row-wrap
+  text-align: center;
+}
+
+footer .social-media p {
+padding: 0 25px;
+}
+
+footer .copyright p {
+  color: #c4c4c4;
+  margin: 20px 0;
+}
+
+/* --------------------- mobile Styles Homepage --------------------- */
+
+/* Hero Area */
+
+/*Work Area */
+
+
+
+
+
+/* ==========================================================================
+Contact Page
+   ========================================================================== */
+
+
+
+
+
+ /* ==========================================================================
+   UX Page
+       ========================================================================== */
+
+ /* ==========================================================================
+       Websites Page
+          ========================================================================== */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +436,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
