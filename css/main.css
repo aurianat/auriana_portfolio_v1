@@ -259,6 +259,7 @@ main .content-wrapper {
   flex-flow: row-wrap;
 }
 
+/*------ removed this class ; not sure I still need these styles
 .profile-info {
   max-width: 100%;
   max-height: 362px;
@@ -270,7 +271,7 @@ main .content-wrapper {
   overflow: hidden;
   margin-bottom: 20px;
 }
-
+*/
 .my-profile-info {
   display: flex;
   flex-direction: column;
@@ -313,8 +314,13 @@ color: ;
   margin: ;
 }
 
+.profile-about h2 {
 
+}
 
+.profile-about p {
+
+}
 
 
 /*Work Area */
