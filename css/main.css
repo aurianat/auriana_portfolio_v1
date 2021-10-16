@@ -142,6 +142,10 @@ img {
     width: 90%;
     margin: 50px 0;
   }
+
+  address {
+    font-style: normal;
+  }
 /* --------------------- Base Header - Footer styles --------------------- */
 
 header, footer {
@@ -182,15 +186,15 @@ header nav {
 }
 
 header nav ul {
-  width: 100%;
+  width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 header ul {
   list-style-type: none;
-  margin: ;
-  padding: ;
+  margin: 0;
+  padding: 0 25px;
 }
 
 header li {
@@ -230,6 +234,9 @@ footer .social-media p {
 padding: 0 25px;
 }
 
+footer p {
+  color: #c4c4c4;
+}
 footer .copyright p {
   color: #c4c4c4;
   margin: 20px 0;
