@@ -118,9 +118,15 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
 h2 {
+  color: #11a0ed;
   font-family: ;
-  font-weight: ;
+  font-weight: 600;
   font-size: ;
   margin: 0;
 }
@@ -266,6 +272,12 @@ main .content-wrapper {
   margin-bottom: 50px;
 }
 
+figure {
+  max-width: 270px;
+  align-items: center;
+
+
+}
 
 .profile {
   max-width: 100%;
@@ -275,7 +287,7 @@ main .content-wrapper {
   justify-content: center;
 }
 
-.profile.about {
+.profile-about {
 display: inline-block;
 font-family: ;
 font-size: 1rem;
@@ -291,14 +303,15 @@ color: ;
   line-height: ;
   color: ;
   margin: ;
+  text-align: center;
 }
 
 .profile-about h2 {
-
+  text-align: center;
 }
 
 .profile-about p {
-
+  text-align: justify;
 }
 
 
